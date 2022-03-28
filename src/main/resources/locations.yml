@@ -1,0 +1,21 @@
+SPAWN:
+  X:
+  Y:
+  Z:
+  YAW:
+  PITCH:
+  WORLD:
+END_SPAWN:
+  X:
+  Y:
+  Z:
+  YAW:
+  PITCH:
+  WORLD:
+END_EXIT:
+  X:
+  Y:
+  Z:
+  YAW:
+  PITCH:
+  WORLD:

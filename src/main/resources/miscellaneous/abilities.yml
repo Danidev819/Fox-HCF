@@ -1,0 +1,271 @@
+# ABILITIES CONFIGURATION
+BEACON:
+  ICON:
+    DISPLAYNAME: "&6&lBeacon"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "BEACON"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+SWITCHER:
+  ICON:
+    DISPLAYNAME: "&6&lSwitcher"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "SNOW_BALL"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%PLAYER% have been hit you with %ABILITY%"
+      - " &b►  &cYou has been swap to %PLAYER% position."
+      - ""
+GUARDIAN_ANGEL:
+  ICON:
+    DISPLAYNAME: "&6&lGuardian Angel"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "GOLD_NUGGET"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+NINJA_STAR:
+  ICON:
+    DISPLAYNAME: "&6&lNinja Star"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "NETHER_STAR"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%PLAYER% have been used %ABILITY%"
+      - " &b►  &c%PLAYER% teleport to your position."
+      - ""
+TANK_INGOT:
+  ICON:
+    DISPLAYNAME: "&6&lTank Ingot"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "IRON_INGOT"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+STRENGTH:
+  ICON:
+    DISPLAYNAME: "&6&lStrength"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "BLAZE_POWDER"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+POCKET_BARD:
+  ICON:
+    DISPLAYNAME: "&6&lPocket Bard"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "INK_SACK"
+    DATA: 14
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+SWAPPER_AXE:
+  ICON:
+    DISPLAYNAME: "&6&lSwapper Axe"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "DIAMOND_AXE"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%PLAYER% have been used %ABILITY%"
+      - " &b►  &cYour helmet take off in 5 seconds."
+      - ""
+SCRAMMBLER:
+  ICON:
+    DISPLAYNAME: "&6&lScrammbler"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "GOLD_INGOT"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%PLAYER% have been used %ABILITY%"
+      - " &b►  &cYour inventory has been scrammbler."
+      - ""
+COMBO:
+  ICON:
+    DISPLAYNAME: "&6&lCombo"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "RAW_FISH"
+    DATA: 3
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+EFFECT_DISABLER:
+  ICON:
+    DISPLAYNAME: "&6&lEffect Disabler"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "SLIME_BALL"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%PLAYER% have been used %ABILITY%"
+      - " &b►  &cYour effects has been removed."
+      - ""
+WAYPOINT:
+  ICON:
+    DISPLAYNAME: "&6&lWaypoint"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "WATCH"
+    DATA: 0
+  COOLDOWN: 60
+  ON-TELEPORT: "&3You have successfully teleported to the old location with Waypoint ability."
+  TELEPORT-COOLDOWN: 15
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+ANTI_TRAPPER:
+  ICON:
+    DISPLAYNAME: "&6&lAnti Trapper"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "BONE"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY% against &b%TARGET%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+    TARGET:
+      - ""
+      - " &b►  &c%player% have been used %ABILITY%"
+      - " &b►  &cYour effects has been removed."
+      - ""
+COOKIE:
+  ICON:
+    DISPLAYNAME: "&6&lCookie"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "COOKIE"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+ROCKET:
+  ICON:
+    DISPLAYNAME: "&6&lRocket"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "FIREWORK"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - " &b►  &3You have successfully used %ABILITY%"
+      - " &b►  &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+TIME_WARP:
+  ICON:
+    DISPLAYNAME: "&6&lTime Warp"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "FEATHER"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - "&4\u2764 &3You have successfully used %ABILITY%"
+      - "&4\u2764 &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""
+FAKE_LOGGER:
+  ICON:
+    DISPLAYNAME: "&6&lFake Logger"
+    DESCRIPTION:
+      - "&7Default desc."
+    MATERIAL: "INK_SACK"
+    DATA: 0
+  COOLDOWN: 60
+  MESSAGE:
+    PLAYER:
+      - ""
+      - "&4\u2764 &3You have successfully used %ABILITY%"
+      - "&4\u2764 &3Now on cooldown for &b%COOLDOWN% &3seconds."
+      - ""

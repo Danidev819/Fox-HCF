@@ -1,0 +1,50 @@
+# SCOREBOARD CONFIGURATION
+ENABLED: true
+TITLE: "&6&lFox &7| &fHCF (Map I)"
+SEPARATOR-LINES-ENABLED: true
+SEPARATOR-LINES: "&7&m--------------------------------"
+FOOTER-ENABLED: true
+FOOTER: "&7&oserver.net"
+
+KITMAP:
+  STATISTICS:
+    - " &6Kills&7: &f%KILLS%"
+    - " &6Deaths&7: &f%DEATHS%"
+    - " &6Keys&7: &f%KEYS%"
+
+KILL-STREAK: " &6► &7Streak&7: &f%STREAK%"
+BALANCE: " &6► &7Balance&7: &f$%BALANCE%"
+
+FACTION_FOCUS:
+  - "&6&nFaction Focus"
+  - " &6► &7Team&7: &f%FACTION%"
+  - " &6► &7HQ&7: &f%HOME%"
+  - " &6► &cDTR&7: %DTR%"
+  - " &6► &aOnline&7: &f%ONLINE%"
+
+SOTW:
+  - "&a&lStart of the World"
+  - "&7%d_arrow% &c%cooldown%"
+SOTW-ENABLE:
+  - "&a&lStart of the World"
+  - "&7%d_arrow% &c&m%cooldown%"
+EOTW: "&4&lEOTW &cstart in &l%TIME%"
+EOTW_CAPPABLE: "&4&lEOTW &ccappable in &l%TIME%"
+
+CITADEL: "&5&lCitadel&7: &f%TIME%"
+KOTH: "&9&l%KOTH%&7: &f%TIME%"
+
+CUSTOM_TIMER: "%TIMER%&7: &f%TIME%"
+TIMER: "%TIMER%&7: &f%TIME%"
+
+ARCHER_TAG_NAME: "Archer Tag"
+ARCHER_TAG_COLOR: "&4"
+ARCHER_TIME: "1s"
+
+PANDA_ABILITY:
+  GLOBAL_COOLDOWN: "%NAME%&7: &f%COOLDOWN%"
+  ABILITY_COOLDOWN: "%ABILITY%&7: &f%COOLDOWN%"
+
+END_EXIT: "&5&lExit&7: &f%LOCATION%"
+
+

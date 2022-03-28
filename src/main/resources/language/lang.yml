@@ -1,0 +1,257 @@
+# FACTION MESSAGES
+FACTION:
+  CREATE: "&7Faction &6%FACTION% &7has been &acreate &7by %PLAYER%."
+  DISBAND: "&7Faction &6%FACTION% &7has been &cdisband &7by %PLAYER%."
+  RENAME: "&7Faction &6%FACTION% &7has been rename to &6%NEW_NAME% &7by %PLAYER%."
+
+  RALLY: "&6%PLAYER% &7has updated the faction's rally point!"
+  UNRALLY: "&6%PLAYER% &7has deleted the faction's rally point!"
+
+  CONNECTED: "&6%PLAYER% has been &aconnected&e."
+  DISCONNECTED: "&6%PLAYER% has been &cdisconnected&e."
+
+  # ~ Death Messages
+DEATH-MESSAGES:
+  KILL: "&6%victim% &7was slain by &6%attacker%"
+  SHOT: "&6%victim% &7was shot by &6%attacker%"
+  USING: " &7Using &6%item%."
+  USING-1: " &7Using &6%item%."
+  DIED: "&6%victim% &7died"
+  FALL: "&6%victim% &7fell from a high place"
+  FIRE: "&6%victim% &7died to fire"
+  LIGHTNING: "&6%victim% &7died to a lightning"
+  WITHER: "&6%victim% &7withered away"
+  DROWN: "&6%victim% &7has drowned"
+  CRUSH: "&6%victim% &7died to a falling block"
+  MAGIC: "&6%victim% &7died to magic"
+  VOID: "&6%victim% &7fell into the void"
+  EXPLOSION: "&6%victim% &7has exploded"
+  LAVA: "&6%victim% &7tried to swim in lava"
+  STARVATION: "&6%victim% &7has starved"
+  KILLS-VARIABLE: "%player% &a(%kills%)"
+
+
+CLAIM:
+  KITMAP:
+    ENTER: "&eEntering &8\u00BB &e%CLAIM%"
+    LEAVE: "&eLeaving &8\u00BB &e%CLAIM%"
+  HCF:
+    ENTER: "&eNow entering &8\u00BB %CLAIM% &e(%DEATHBAN%&e)"
+    LEAVE: "&eNow leaving &8\u00BB %CLAIM% &e(%DEATHBAN%&e)"
+
+ARCHER_TAG: "&e[&6Archer Range &e(&c%DISTANCE%&e)] &6Marked Player. &6(1.5 heart)"
+
+## SOTW
+SOTW-ENABLE-NO-SOTW: "&cYou can only SOTW Enable if SOTW is enabled!"
+SOTW-ENABLED: "&aYou have successfully enabled SOTW!"
+SOTW-ALREADY-ENABLED: "&aYour SOTW is already enabled!"
+SOTW-OVER:
+  - "&7&m-------------------------------------------"
+  - "&6The &a&lSOTW &6has ended"
+  - "&7&m-------------------------------------------"
+# ABILITIES MESSAGES
+STILL_ON_COOLDOWN: "%ABILITY% &cstill on cooldown for another &l%COOLDOWN%&c."
+COOLDOWN_EXPIRED: "&aYour %ABILITY% &acooldown has been expired."
+
+RECEIVED_ABILITY: "&aYou've receive x%AMOUNT% %ABILITY%&a."
+GIVE_ABILITY: "&aYou've give x%AMOUNT% %ABILITY% &ato &f%PLAYER%&a."
+
+# KILLSTREAK MESSAGES
+KILL_STREAK: "&7[&6KS&7] &b%PLAYER% &ereceived &c%ITEM% &efrom their killstreak of &c&l%STREAK%&e."
+
+# DEATHBAN MESSAGES
+DEATHBAN: "&cYou have death-banned for %TIME% because %REASON%."
+DEATHBAN_ACTIVE: "&cYou are currently death-banned for %TIME% remaining."
+DEATHBAN_EOTW: "&cYou have been death-banned for entire of EOTW."
+
+# NETWORK MESSAGES
+DISCORD: "&eDiscord: &f%DISCORD%"
+STORE: "&eStore: &f%STORE%"
+TEAMSPEAK: "&eTeamspeak: &f%TEAMSPEAK%"
+TWITTER: "&eTwitter: &f%TWITTER%"
+WEBSITE: "&eWebsite: &f%WEBSITE%"
+
+# ESSENTIALS MESSAGES
+BROADCAST: "&8[&6Broadcast&8] &r%MESSAGE%"
+FEED: "&eYour hunger has been satisfied."
+HEAL: "&eYou've been healed."
+GAMEMODE: "&eSet gamemode of %PLAYER% to %GAMEMODE%."
+RENAME: "&eRename item to %NAME%&e."
+REPAIR: "&eItem has been repair."
+REPAIR_ALL: "&eAll items has been repair."
+CLEAR_INV: "&eYour inventory has been clear."
+
+# MEDIA MESSAGES
+MEDIA:
+  OWNER_MEDIA:
+    - ""
+    - "&4❤ &f┃ &cOwner Media Requirements"
+    - "&7&ocontact us with a ticket or in ts.yourserver.net"
+    - ""
+  PARTNER:
+    - ""
+    - "&4❤ &f┃ &dPartner Requirements"
+    - "&7&ocontact us with a ticket or in ts.yourserver.net"
+    - ""
+  FAMOUS:
+    - ""
+    - "&4❤ &f┃ &bFamous Requirements"
+    - "&7&o550 subscribers 2 videos per week."
+    - ""
+  YOUTUBER:
+    - ""
+    - "&4❤ &f┃ &cYoutuber Requirements"
+    - "&7&o300 subscribers 2 videos per week."
+    - ""
+  MEDIA:
+    - ""
+    - "&4❤ &f┃ &6Media Requirements"
+    - "&7&o150 subscribers 2 videos per week."
+    - ""
+
+# APPLY MESSAGES
+APPLY:
+  GLOBAL:
+    - ""
+    - " &4❤ &7┃ &6&lGlobal Applies &ein our teamspeak"
+    - " &eJoin at &7ts.yourserver.net &eto interview."
+    - ""
+  HOSTER:
+    - ""
+    - " &4❤ &7┃ &6&lHoster Applies &ein our teamspeak"
+    - " &eJoin at &7ts.yourserver.net &eto interview."
+    - ""
+  STAFF:
+    - ""
+    - " &4❤ &7┃ &6&lStaff Applies &ein our teamspeak"
+    - " &eJoin at &7ts.yourserver.net &eto interview."
+    - ""
+  WEBSITE:
+    - ""
+    - " &4❤ &7┃ &6&lWebsite Dev Applies &ein our teamspeak"
+    - " &eJoin at &7ts.yourserver.net &eto interview."
+    - ""
+  DEVELOPER:
+    - ""
+    - " &4❤ &7┃ &6&lDeveloper Applies &ein our teamspeak"
+    - " &eJoin at &7ts.yourserver.net &eto interview."
+    - ""
+
+# OTHERS MESSAGES
+TOGGLE_PM:
+  ENABLED: "&eYour private messages has been &aenabled&e."
+  DISABLED: "&eYour private messages has been &cdisabled&e."
+  BLOCKED: "&cThis player has private messages disabled."
+
+FLY:
+  ENABLED: "&eYour flight has been &aenabled&e."
+  DISABLED: "&eYour flight has been &cdisabled&e."
+
+KILL:
+  YOUR_SELF: "&eYou've been killed."
+  OTHER: "&eYou have killed %PLAYER%."
+
+COBBLE:
+  ENABLED: "&eCobble pickup has been &aenabled&e."
+  DISABLED: "&eCobble pickup has been &cdisabled&e."
+
+PING:
+  YOUR_SELF: "&eYour ping is &7%PING%&e."
+  OTHER: "&ePing of &6%PLAYER% &eis &7%PING%&e."
+
+PLAY_TIME:
+  YOUR_SELF: "&eYou've played for &7%TIME% &ethis map."
+  OTHER: "&6%PLAYER% &ehas played for &7%TIME% &ethis map."
+
+CHAT:
+  MUTE: "&eChat has been &aenabled &eby &d%PLAYER%&e."
+  UN_MUTE: "&eChat has been &cdisabled &eby &d%PLAYER%&e."
+  CLEAR: "&eChat has been cleared by &d%PLAYER%&e."
+  SLOW: "&eChat delay is now of &f%TIME% &eby &d%PLAYER%&e."
+
+SUDO:
+  COMMAND: "&eYou've made &6%PLAYER% &eexecute &7%COMMAND% &ecommand."
+  MESSAGE: "&eYou've made &6%PLAYER% &etype &7%MESSAGE% &ein the chat."
+
+RECLAIM:
+  ALREADY: "&cYou've already reclaim your rewards."
+  NOTHING: "&cNothing to reclaim."
+  CLAIM: "&eYou've claim your rewards."
+
+SOTW:
+  START: "&eSOTW Timer has been &astarted&e."
+  CANCEL: "&eSOTW Timer has been &ccancelled&e."
+
+NEW_VIDEO:
+  - "&7&m--------------------------"
+  - "&4%PLAYER% &chas posted a new video."
+  - "&4&lURL&7: &f%URL%"
+  - "&7&m--------------------------"
+
+STREAM:
+  - "&7&m--------------------------"
+  - "&5%PLAYER% &dis streaming."
+  - "&5&lURL&7: &f%URL%"
+  - "&7&m--------------------------"
+
+LIST:
+  - "&7&m--------------------------"
+  - "&6They are &6%ONLINE% &6online players."
+  - "&7&m--------------------------"
+
+COORDS:
+  - "&7&m--------------------------"
+  - "&eYour coords."
+  - "&7&m--------------------------"
+
+HELP:
+  - "&7&m--------------------------"
+  - "&eYour help."
+  - "&7&m--------------------------"
+
+ORES:
+  - "&7&m--------------------------"
+  - "&6&lOres Statistics &7| &f%PLAYER%"
+  - ""
+  - "&aEmerald Mined&7: &f%EMERALD%"
+  - "&bDiamond Mined&7: &f%DIAMOND%"
+  - "&6Gold Mined&7: &f%GOLD%"
+  - "&7Iron Mined&7: &f%IRON%"
+  - "&cRedstone Mined&7: &f%REDSTONE%"
+  - "&bLapis Mined&7: &f%LAPIS%"
+  - "&8Coal Mined&7: &f%COAL%"
+  - "&7&m--------------------------"
+
+# KEYALL TYPES
+KEY_ALL:
+  MINI:
+    - ""
+    - "&4❤ &f┃ &6&lMini KeyAll"
+    - "&7&oContains: &bx1 Starter Key"
+    - ""
+  NORMAL:
+    - ""
+    - "&4❤ &f┃ &6&lNormal KeyAll"
+    - "&7&oContaints: &bx2 Starter Keys"
+    - ""
+  OP:
+    - ""
+    - "&4❤ &f┃ &6&lOP KeyAll"
+    - "&7&oContains: &bx3 Starter Keys"
+    - ""
+
+MINI-KEYALL:
+  COMMANDS:
+    - "crate givekey all Starter 1"
+    - "crate givekey all Comet 1"
+    - "crate givekey all Meteor 1"
+NORMAL-KEYALL:
+  COMMANDS:
+    - "crate givekey all Starter 2"
+    - "crate givekey all Comet 2"
+    - "crate givekey all Meteor 2"
+OP-KEYALL:
+  COMMANDS:
+    - "crate givekey all Starter 3"
+    - "crate givekey all Comet 3"
+    - "crate givekey all Meteor 3"

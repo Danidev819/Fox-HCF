@@ -1,0 +1,30 @@
+# BLOCKSHOP MENU CONFIGURATION
+BLOCKSHOP:
+  TITLE: "Block Shop"
+  SIZE: 5
+  CATEGORY:
+    Flower:
+      ICON:
+        DISPLAYNAME: "&b&lFlower Blocks"
+        DESCRIPTION: {}
+        MATERIAL: 37
+        DATA: 0
+        SLOT: 22
+      SUB_MENU: true
+
+# BLOCKS MENU CONFIGURATION
+BLOCKS:
+  TITLE: "%CATEGORY% Blocks"
+  SIZE: 5
+  CATEGORY:
+    Flower:
+      1:
+        ICON:
+          DISPLAYNAME: "&3Poppy"
+          DESCRIPTION:
+            - "&bPrice&7: &f$%PRICE%"
+          MATERIAL: 38
+          DATA: 0
+          AMOUNT: 16
+          SLOT: 22
+        PRICE: 150

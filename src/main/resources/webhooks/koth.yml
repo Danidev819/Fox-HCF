@@ -1,0 +1,7 @@
+MODALITY: 'HCF'
+
+DISCORD:
+  ENABLED: false
+  URL: ''
+  IMAGE: ''
+  FOOTER: 'Play now on server.net'

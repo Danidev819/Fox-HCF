@@ -1,0 +1,19 @@
+SUPPORT-MESSAGES:
+  ALREADY: " &6► &cYou already support a partner."
+  SUPPORT: " &6► &aCongratulations, you have supported %partner% and received the rewards."
+
+SUPPORT-MENU:
+  TITLE: " &3► Support a Partner"
+  SIZE: 3
+  PARTNERS:
+    Danidev819:
+      ICON:
+        DISPLAYNAME: "&d&l%partner%"
+        DESCRIPTION:
+          - "&7&m----------------------"
+          - " &7Rewards:"
+          - " &6► &ex1 Partner Key."
+          - "&7&m----------------------"
+        SLOT: 13
+      COMMANDS:
+        - "cr givekey %player% Partner 1"

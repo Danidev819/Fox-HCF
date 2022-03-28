@@ -1,0 +1,205 @@
+LICENSE: "LICENSE-KEY"
+
+# MODE CONFIGURATION
+KITMAP: true
+
+ENDERPEARL-GLITCH: true
+EVENT-PEARL: true
+
+END-ENABLED: true
+
+SERVER-NAME: "&6&lFox HCF v0.1"
+
+### Temporally TAB Config ###
+TABLIST: true
+
+END-PORTAL: "&71500, 1500"
+
+MAP-KIT: "&7Prot 1, Sharp 1"
+
+MAP-BORDER: "&73000 x 3000"
+
+### Tournament Config ###
+tournament:
+  enabled: true
+  sumo-tournament-reward: "cr givekey %player% Event 2"
+  lms-tournament-reward: "cr givekey %player% Event 4"
+  name-key: "Event" # NO COLOR , ONLY NAME
+  disable-commands:
+    - "spawn"
+    - "f home"
+    - "hq"
+    - "f stuck"
+    - "stuck"
+    - "ec"
+    - "enderchest"
+    - "pv"
+    - "echest"
+    - "chest"
+    - "fr"
+    - "sp"
+    - "invis"
+    - "kits"
+    - "kit"
+    - "gkit"
+    - "staff"
+    - "repair"
+    - "fix"
+    - "feed"
+    - "heal"
+    - "reclaim"
+    - "fix all"
+    - "kit"
+    - "staffmode"
+    - "ec"
+    - "echest"
+    - "enderchest"
+    - "spawn"
+    - "f"
+    - "faction"
+    - "fac"
+    - "kits"
+    - "mod"
+    - "vanish"
+    - "gamemode"
+
+# NETWORK CONFIGURATION
+STORE: "store.yourserver.net"
+TEAMSPEAK: "ts.yourserver.net"
+WEBSITE: "www.yourserver.net"
+DISCORD: "dsc.gg/hardling"
+TWITTER: "twitter.com/Danidev819"
+
+NAMETAGS:
+  ENEMY-COLOR: "&c"
+  TEAMMATE-COLOR: "&a"
+  ARCHER-TAG-COLOR: "&e"
+  ALLY-COLOR: "&d"
+
+KIT:
+  USE-IN-EOTW:
+    ENABLED: true
+
+# JOIN CONFIGURATION
+JOIN_MESSAGE:
+  ENABLE: true
+  MESSAGE:
+    - "&7&m------------------------"
+    - "  &eWelcome %PLAYER% example message."
+    - "&7&m------------------------"
+
+JOIN_BALANCE: 500
+
+# INVENTORY BLOCKS
+INVENTORY:
+  ENABLE: true
+  BLOCKS:
+    - "COBBLESTONE"
+    - "STONE"
+    - "COAL_ORE"
+    - "IRON_ORE"
+    - "GOLD_ORE"
+
+# REWARD CONFIGURATION
+KEY_REWARD: "cr givekey %PLAYER% Kill %AMOUNT%"
+BALANCE_REWARD: 250
+
+# ONLINE DONATOR CONFIGURATION
+ONLINE_DONATOR:
+  ENABLE: true
+  INTERVAL: 10 # IN MINUTES
+  BROADCAST:
+    - "&7&m------------------------"
+    - "&6&lOnline Donators"
+    - "&7%DONATORS%"
+    - ""
+    - "&8You can purchase your rank in %STORE%."
+    - "&7&m-------------------------"
+
+# CHAT CONFIGURATION
+CHAT:
+  FORMAT: "&6[&c%FACTION%&6] &e%RANK_PREFIX%%PLAYER%&7: &f%MESSAGE%"
+
+# BORDER CONFIGURATION
+BORDER:
+  OVERWORLD: 3000
+  NETHER: 1000
+  END: 1000
+
+# RADIUS CONFIGURATION
+RADIUS:
+  WARZONE: 750
+  BUILD: 300
+
+# DEATHBAN CONFIGURATION
+DEATHBAN: 60 # IN MINUTES
+
+# FACTION CONFIGURATION
+FACTION_GENERAL:
+  MAX_PLAYERS: 15
+  MAX_ALLIES: 1
+  DTR_LOSS:
+    WORLD: 1.0
+    NETHER: 1.0
+    END: 1.0
+    DEATH_ROOM: 0.0
+  DEATH_TIME:
+    KITMAP: "5m"
+    HCF: "30m"
+  SHOW:
+    SYSTEM_FACTION:
+      - "&7%LINE%"
+      - "%FACTION%"
+      - "  &eLocation&7: &f%WORLD%, %X%, %Z%"
+      - "&7%LINE%"
+    ROAD_FACTION:
+      - "&7%LINE%"
+      - "%FACTION%"
+      - "&7%LINE%"
+
+# LUNAR CONFIGURATION
+LUNAR_NAMETAG:
+  ENABLE: true
+  FORMAT: "&6[&e%FACTION% &7| %DTR%&6]"
+
+# CONQUEST CONFIGURATION
+CONQUEST:
+  WIN_POINTS: 10
+  LOSS_POINTS: 10
+  MAX_POINTS: 300
+
+KING-EVENT:
+  START-KIT: "kit apply killtheking %player%"
+
+ELEVATOR:
+  FORMAT: "&6[Elevator]"
+# POINTS CONFIGURATION
+POINTS:
+  PER_KILL: 1
+  PER_DEATH: 1
+  PER_KOTH: 10
+  PER_CITADEL: 10
+  PER_CONQUEST: 10
+
+# EVENTS CONFIGURATION
+EVENT_WIN:
+  KOTH: "cr givekey %PLAYER% Koth 1"
+  CITADEL: "cr givekey %PLAYER% Citadel 1"
+  CONQUEST: "cr givekey %PLAYER% Conquest 1"
+
+# TIMERS CONFIGURATION
+TIMERS:
+  LOGOUT: 30
+  ENDERPEARL: 16
+  ARCHER_TAG: 1
+  NOTCH: 60
+  GOLDEN_APPLE: 5
+  PROTECTION: 60
+  CLASS_WARMUP: 5
+  SPAWN_TAG: 30
+  STUCK: 60
+  TELEPORT: 10
+
+# POTION LIMITER (Potion Data)
+POTIONS_DISABLED:
+  - 1111

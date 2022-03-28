@@ -1,0 +1,207 @@
+main: me.danidev.core.Main
+name: fHCF
+version: 0.1
+author: Danidev819
+softdepend: [ProtocolLib]
+commands:
+  support:
+    description: Open a Support Menu
+  hcfcore:
+    description: Check the info of the plugin
+    aliases: ["developer", "dev", "author", "fhcf"]
+  keyall:
+    description: Open a menu to view all KeyAll types.
+  ability:
+    aliases: ["ability"]
+    description: Ability Command
+  customtimer:
+    aliases: ["ct", "ctimer", "customt"]
+  media:
+    description: Media Command
+  keys:
+    description: Keys Command
+  blockshop:
+    aliases: ["bs"]
+    description: Block Shop Command
+  setdeathbanspawn:
+    description: Set a spawn deathban
+  lff:
+    description: Open a Menu to select classes
+  ktk:
+    aliases: ["killtheking"]
+  suggestion:
+    aliases: ["sgg", "suggon"]
+    description: Suggestion Command
+  suggestioncheck:
+    aliases: ["sggcheck", "scheck"]
+    description: Suggestion Check Command
+  apply:
+    description: Apply Command
+  newvideo:
+    description: New Video Command
+  stream:
+    description: Stream Command
+  chat:
+    description: Chat Command
+  citadel:
+    description: Citadel Command
+  craft:
+    description: Open your personal crafting table.
+  event:
+    description: Event Command
+  set:
+    description: Set Command
+  spawn:
+    description: Teleport to spawn.
+  death:
+    description: Command for staff members.
+    aliases: ["dh"]
+  reclaim:
+    description: ReclaimManager your items.
+  setreclaim:
+    description: Set a player reclaim.
+  teamspeak:
+    aliases: [ "ts", "ts3" ]
+    description: Give server teamspeak.
+  twitter:
+    aliases: [ "tw" ]
+    description: Give server twitter.
+  discord:
+    description: Give server discord.
+  website:
+    description: Give server website.
+  spawner:
+    description: Give mob spawner.
+  ffa:
+    description: Give all players FFA potion effects.
+  sendcoords:
+    aliases: [ "tl" ]
+    description: Broadcast your location to your faction members.
+  statsreset:
+    description: Reset a players K/D statistics.
+  enderchest:
+    aliases: [ "ec" ]
+    description: Open your personal enderchest.
+  stats:
+    description: Checks the staticstics on a player.
+  sotw:
+    description: Start the SOTW Timer.
+  wrench:
+    description: Management of wrench tools.
+  conquest:
+    description: Base Conquest commands.
+  economy:
+    aliases: [ bal, balance, money, eco ]
+    description: Command used to modify the economy.
+  eotw:
+    description: Sets if the server is in End of the World mode.
+  faction:
+    aliases: [f, fac, team , t]
+    description: Faction related commands.
+  help:
+    description: Find out more about this server.
+  koth:
+    description: Make or delete KotH arenas.
+  lives:
+    description: Management of lives or deathbans.
+  logout:
+    description: Command to safely logout without an NPC spawning.
+  pay:
+    description: Allow players to pay money.
+  pvptimer:
+    aliases: [ pvp ]
+    description: Enable or disable pvp timer protection.
+  safestop:
+    description: Safely stop the server.
+  coords:
+    description: Shows coordinates of events.
+  timer:
+    description: Command to manage timers.
+  cobble:
+    description: Toggle cobblestone pickup.
+  ores:
+    description: View ore statistics of a player.
+  wrenchgive:
+    description: Give a wrench.
+  broadcast:
+    aliases: ["bc"]
+  list:
+    description: List Command
+  back:
+    description: Teleport to last known location.
+  clearinv:
+    aliases: [ "ci", "clear", "cpinv" ]
+    description: Clears a player inventory.
+  enchant:
+    description: Enchant an item.
+  fly:
+    description: Toggle flight for a player.
+  feed:
+    description: Feed a player.
+  gamemode:
+    aliases: ["gm"]
+    description: Update a players gamemode.
+  give:
+    description: Give an item to a player.
+  heal:
+    description: Heal a player.
+  invsee:
+    aliases: [ "inventory", "inventorysee", "inv" ]
+    description: View a players inventory.
+  item:
+    aliases: [ "i" ]
+    description: Spawn an item.
+  kill:
+    aliases: ["suicide", "slay"]
+    description: Kill a player.
+  kit:
+    description: Command to apply or use kits.
+    aliases: ["gkit", "kits", "gkits", "kits"]
+  message:
+    aliases: ["m", "message", "tell", "whisper", "w", "msg"]
+    description: Messsage an online player.
+  more:
+    description: Give yourself more of an item.
+  near:
+    description: Check nearby entities to a player.
+  ping:
+    aliases: ["p"]
+    description: Checks the ping of a player.
+  playtime:
+    aliases: ["pt"]
+    description: Track a players total playtime of the map.
+  rename:
+    description: Command used to rename items.
+  repair:
+    aliases: [ "fix" ]
+    description: Allows the repairing of tools.
+  repairall:
+    aliases: [ "fixall" ]
+    description: Allows the repairing of all tools.
+  store:
+    aliases: ["buy"]
+    description: Gets the donation link.
+  reply:
+    aliases: [ "r" ]
+    description: Reply to a player message.
+  skull:
+    description: Spawn the skull of a player.
+  sudo:
+    description: Force another player to run a commands.
+  teleport:
+    aliases: [ "tp" ]
+    description: Teleport to a player or location.
+  teleportall:
+    aliases: [ "tpall" ]
+    description: Teleport all online players somewhere.
+  teleporthere:
+    aliases: [ "tphere", "s" ]
+    description: Teleport a player to self.
+  togglemsg:
+    aliases: ["togglepm", "toggleprivatemessages", "tpm", "togglemessages"]
+    description: Disable private messages.
+  leaderboard:
+    aliases: ["lb"]
+    description: Leaderboard Command
+  world:
+    description: Change your current world.

@@ -1,0 +1,5 @@
+# RECLAIM CONFIGURATION
+RECLAIM:
+  Default:
+    COMMANDS:
+      - bc &6%PLAYER% &eclaimed their &7%GROUP% Perks&e. &7(/reclaim)
