@@ -1,0 +1,3 @@
+## ALGUNAS LIBS NO SE PUEDEN SUBIR POR QUE PESAN MUCHO
+
+Si necesitas te las paso
