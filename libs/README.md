@@ -1,3 +1,3 @@
-## ALGUNAS LIBS NO SE PUEDEN SUBIR POR QUE PESAN MUCHO
+## FALTA LA API DE NITROSPIGOT
 
-Si necesitas te las paso
+Si necesitas te la paso
