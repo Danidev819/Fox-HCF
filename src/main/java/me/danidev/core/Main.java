@@ -15,7 +15,6 @@ import me.danidev.core.commands.suggestion.SuggestionCheckCommand;
 import me.danidev.core.commands.suggestion.SuggestionCommand;
 import me.danidev.core.commands.wrench.WrenchCommand;
 import me.danidev.core.commands.wrench.WrenchGiveCommand;
-import me.danidev.core.license.License;
 import me.danidev.core.listeners.*;
 import me.danidev.core.listeners.death.DeathListener;
 import me.danidev.core.listeners.death.DeathMessageListener;
@@ -240,12 +239,6 @@ public class Main extends JavaPlugin {
         Main.plugin = this;
 
         this.loadConfigs();
-
-        if(!new License(this, getConfig().getString("LICENSE"), "http://192.95.44.38:8080/api/client", "f747db61cc4af434c812a34a93e514a83b1c70b2").verify()) {
-            Bukkit.getPluginManager().disablePlugin(this);
-            Bukkit.getScheduler().cancelTasks(this);
-            return;
-        }
 
         this.loadClass();
         this.loadCooldowns();
